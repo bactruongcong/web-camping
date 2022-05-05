@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
 }
@@ -32,6 +35,7 @@ body{
     padding: 30px 30px;
     background-color: white;
     border-radius: 10px;
+
 }
 .row-item .row-item-content{
     float: left;
@@ -39,9 +43,13 @@ body{
     padding: 0 20px;
     width: 25%;
 }
+.ric-img{
+    position: relative;
+}
 .ric-img img{
     border-radius: 8px;
     width: 100%;
+
 }
 .ric-content{
     text-align: center;
@@ -52,16 +60,100 @@ body{
 .ric-content p {
     color: #8d8d8d;
 }
-.ric-readmore{
-    border-radius: 20px;
+.ric-readmore, .ric-viewall{
+   
     text-align: center;
-    padding: 10px 10px;
-    background-color: #e8e8e8;
 }
-.ric-readmore a{
+.ric-readmore a, .ric-viewall a{
+    border-radius: 20px;
+    padding: 10px 50px;
+    background-color: #e8e8e8;
     text-decoration: none;
     color:#8d8d8d;
 }
 .clear{
     clear: both;
+}
+.ric-main .ric-img .heart{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+    color: red;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+}
+.ric-viewall{
+    margin-top: 30px;
+    background-color: #faf4f2;
+}
+.ric-viewall a{
+    background-color: #faf4f2;
+    border: 1px solid coral;
+    border-radius: 20px;
+    padding: 10px 60px ;
+    color: coral;
+}
+.info{
+    margin-top: 30px;
+    background-color: #f8e1db;
+}
+.info .if-item{
+    float: left;
+    width: 50%;
+    
+}
+.info-app{
+    padding-top: 20px;
+}
+.info-app h2{
+    font-weight: bold;
+    color: #8d8d8d;
+}
+.info-app p{
+    color: #8d8d8d;
+}
+.icon-app .ica-item{
+    float: left;
+}
+.icon-app .ica-item h3{
+    color: #8d8d8d;
+}
+.followus i{
+    color: coral;
+    font-size: 30px;
+}
+.followus{
+    padding-left: 5px;
+}
+.footer{
+    margin-top: 50px;
+    padding: 50px 50px;
+    background-color: #f8e1db;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+.footercontainer .ft-item,.footercontainer .ft-item2 .footer-item{
+    float: left;
+}
+.footercontainer .ft-item1{
+    width: 40%;
+}
+.footercontainer .ft-item2{
+   width: 60%;
+}
+.footercontainer .ft-item2 .footer-item{
+    padding-left: 30px;
+    width: 33%;
+}
+.ft-item2 .footer-item p a{
+    text-decoration: none;
+    color: black;
+}
+.footerbotoom{
+    margin-top: 20px;
+    text-align: center;
 }
