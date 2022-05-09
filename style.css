@@ -6,7 +6,12 @@ body{
 }
 .header{
     background-color: #f8e1db;
-    padding: 10px 10px 20px 20px;
+ 
+}
+.container-contentcap{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 10px 0;
 }
 .menu-header a {
     text-decoration: none;
@@ -24,17 +29,25 @@ body{
     background-position: center;
 }
 .container{
-    padding: 20px 0;
+
     background-color: #faf4f2;
 }
 .container-header{
+    padding-top: 50px;
     text-align: center;
     color: #8d8d8d;
+    margin-bottom: 20px;
+    
+}
+.container-header h1{
+    font-size: 23px;
+    margin: 0;
 }
 .ric-main{
     padding: 30px 30px;
+    padding-bottom: 40px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 
 }
 .row-item .row-item-content{
@@ -47,17 +60,21 @@ body{
     position: relative;
 }
 .ric-img img{
-    border-radius: 8px;
+    border-radius: 20px;
     width: 100%;
 
 }
 .ric-content{
     text-align: center;
+    margin-bottom: 20px;
 }
 .ric-content h2{
+    font-size: 17px;
     color:#3a3735;
+    margin:10px 0;
 }
 .ric-content p {
+    margin-bottom: 26px;
     color: #8d8d8d;
 }
 .ric-readmore, .ric-viewall{
@@ -78,8 +95,8 @@ body{
     position: absolute;
     height: 40px;
     width: 40px;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
     text-align: center;
     color: red;
     line-height: 40px;
@@ -87,7 +104,8 @@ body{
     border-radius: 10px;
 }
 .ric-viewall{
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 80px;
     background-color: #faf4f2;
 }
 .ric-viewall a{
@@ -130,11 +148,12 @@ body{
     padding-left: 5px;
 }
 .footer{
-    margin-top: 50px;
-    padding: 50px 50px;
+    margin-top: 80px;
+    padding-top: 50px;
     background-color: #f8e1db;
     border-top-right-radius: 100px;
     border-top-left-radius: 100px;
+    color: #3a3735;
 }
 .footercontainer .ft-item,.footercontainer .ft-item2 .footer-item{
     float: left;
@@ -151,7 +170,7 @@ body{
 }
 .ft-item2 .footer-item p a{
     text-decoration: none;
-    color: black;
+    color: #3a3735;
 }
 .footerbotoom{
     margin-top: 20px;
